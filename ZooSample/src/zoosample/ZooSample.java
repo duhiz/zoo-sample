@@ -5,8 +5,6 @@
  */
 package zoosample;
 
-import zoosample.animals.gerincesek.emlos.Oroszlan;
-
 /**
  *
  * @author duhi
@@ -17,9 +15,7 @@ public class ZooSample {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Oroszlan oroszlan = new Oroszlan();
         
-        System.out.println(oroszlan.TAPLALKOZAS);
         System.exit(0);
     }
     

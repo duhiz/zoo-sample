@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoosample.files;
+package zoosample.interfaces;
+
+import zoosample.enums.Eating;
 
 /**
  *
  * @author duhi
  */
-public class CsvFile {
-    public static long serialVersionUID=1;
+public interface IMixed extends IPredator, IHerbivorous{
+    Eating EATING = Eating.MIXED;
 }
